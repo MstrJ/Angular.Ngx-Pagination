@@ -2,10 +2,10 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { UsersComponent } from './users/users.component';
-
+import { NgxPaginationModule } from 'ngx-pagination'; // <-
 @NgModule({
   declarations: [AppComponent, UsersComponent],
-  imports: [BrowserModule],
+  imports: [BrowserModule, NgxPaginationModule], // <-
   providers: [],
   bootstrap: [AppComponent],
 })

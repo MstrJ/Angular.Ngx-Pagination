@@ -42,7 +42,7 @@ export const listOfUsers: User[] = [
     id: 6,
     avatar: 'https://robohash.org/magnimodiaut.png?size=120x120&set=set1',
     username: 'tsheldon5',
-    email: 'randreoletti5@nationalgeographic.com',
+    email: 'randreol@nationalgeographic.com',
   },
   {
     id: 7,
@@ -275,14 +275,14 @@ export const listOfUsers: User[] = [
     avatar:
       'https://robohash.org/asperioresdebitisnesciunt.png?size=120x120&set=set1',
     username: 'murlin15',
-    email: 'abrightwell15@independent.co.uk',
+    email: 'abrightwell@independent.uk',
   },
   {
     id: 43,
     avatar:
       'https://robohash.org/doloribusnumquamlaudantium.png?size=120x120&set=set1',
     username: 'cfrostdick16',
-    email: 'lmoohan16@studiopress.com',
+    email: 'lmoohan@studiopress.com',
   },
   {
     id: 44,
@@ -302,20 +302,20 @@ export const listOfUsers: User[] = [
     avatar:
       'https://robohash.org/perferendisatquetenetur.png?size=120x120&set=set1',
     username: 'ftremeer19',
-    email: 'bcopplestone19@globo.com',
+    email: 'bcopple@globo.com',
   },
   {
     id: 47,
     avatar:
       'https://robohash.org/voluptatesculpaminus.png?size=120x120&set=set1',
     username: 'gdagwell1a',
-    email: 'acurness1a@spiegel.de',
+    email: 'acurness@spiegel.de',
   },
   {
     id: 48,
     avatar: 'https://robohash.org/nonrepudiandaeut.png?size=120x120&set=set1',
     username: 'bbasilio1b',
-    email: 'fpettipher1b@china.com.cn',
+    email: 'fpettip@china.com.cn',
   },
   {
     id: 49,
@@ -358,14 +358,14 @@ export const listOfUsers: User[] = [
     id: 55,
     avatar: 'https://robohash.org/eumetquos.png?size=120x120&set=set1',
     username: 'mfanstone1i',
-    email: 'hgreenrod1i@mashable.com',
+    email: 'hgreenro@mashable.com',
   },
   {
     id: 56,
     avatar:
       'https://robohash.org/voluptatumdictanobis.png?size=120x120&set=set1',
     username: 'fsollis1j',
-    email: 'yjohann1j@eventbrite.com',
+    email: 'yjoh1j@eventbrite.com',
   },
   {
     id: 57,
@@ -390,7 +390,7 @@ export const listOfUsers: User[] = [
     id: 60,
     avatar: 'https://robohash.org/rerumetconsequatur.png?size=120x120&set=set1',
     username: 'rfutty1n',
-    email: 'jroskelley1n@storify.com',
+    email: 'jroskell@storify.com',
   },
   {
     id: 61,
@@ -409,7 +409,7 @@ export const listOfUsers: User[] = [
     id: 63,
     avatar: 'https://robohash.org/eosquidolor.png?size=120x120&set=set1',
     username: 'zferrucci1q',
-    email: 'siacopo1q@geocities.com',
+    email: 'siacopo1@geocities.com',
   },
   {
     id: 64,
@@ -421,7 +421,7 @@ export const listOfUsers: User[] = [
     id: 65,
     avatar: 'https://robohash.org/ducimusmagnamtotam.png?size=120x120&set=set1',
     username: 'cashworth1s',
-    email: 'acaughan1s@webeden.co.uk',
+    email: 'acaugha1s@webeden.co.uk',
   },
   {
     id: 66,
@@ -468,47 +468,47 @@ export const listOfUsers: User[] = [
     avatar:
       'https://robohash.org/repudiandaenisiblanditiis.png?size=120x120&set=set1',
     username: 'zferreli1z',
-    email: 'dclaige1z@netlog.com',
+    email: 'dclaige@netlog.com',
   },
   {
     id: 73,
     avatar: 'https://robohash.org/nullaquiaiusto.png?size=120x120&set=set1',
     username: 'dsherebrook20',
-    email: 'ybarehead20@sfgate.com',
+    email: 'ybarehead@sfgate.com',
   },
   {
     id: 74,
     avatar:
       'https://robohash.org/nobistemporaaccusantium.png?size=120x120&set=set1',
     username: 'mtaunton21',
-    email: 'jkennea21@tinypic.com',
+    email: 'jkenne@tinypic.com',
   },
   {
     id: 75,
     avatar:
       'https://robohash.org/minussimiliqueofficia.png?size=120x120&set=set1',
     username: 'adrogan22',
-    email: 'bclemitt22@devhub.com',
+    email: 'bclemit@devhub.com',
   },
   {
     id: 76,
     avatar: 'https://robohash.org/cumquedoloresipsa.png?size=120x120&set=set1',
     username: 'kfryatt23',
-    email: 'gchitson23@phpbb.com',
+    email: 'gchitso@phpbb.com',
   },
   {
     id: 77,
     avatar:
       'https://robohash.org/molestiaedelenitiut.png?size=120x120&set=set1',
     username: 'kchadband24',
-    email: 'lpoker24@cpanel.net',
+    email: 'lpoke@cpanel.net',
   },
   {
     id: 78,
     avatar:
       'https://robohash.org/inventoreaspernaturut.png?size=120x120&set=set1',
     username: 'mboldt25',
-    email: 'iscripture25@tripod.com',
+    email: 'iscriptur@tripod.com',
   },
   {
     id: 79,
@@ -521,13 +521,13 @@ export const listOfUsers: User[] = [
     id: 80,
     avatar: 'https://robohash.org/eumvoluptatemqui.png?size=120x120&set=set1',
     username: 'msidwell27',
-    email: 'ljoburn27@mozilla.com',
+    email: 'ljoburn@mozilla.com',
   },
   {
     id: 81,
     avatar: 'https://robohash.org/quietaut.png?size=120x120&set=set1',
     username: 'dsnowling28',
-    email: 'gcowpland28@theatlantic.com',
+    email: 'gcow28@theatlantic.com',
   },
   {
     id: 82,
@@ -546,31 +546,31 @@ export const listOfUsers: User[] = [
     id: 84,
     avatar: 'https://robohash.org/iurelaudantiumsint.png?size=120x120&set=set1',
     username: 'sscoggans2b',
-    email: 'fwaddilow2b@oakley.com',
+    email: 'fwaow2b@oakley.com',
   },
   {
     id: 85,
     avatar: 'https://robohash.org/etipsumut.png?size=120x120&set=set1',
     username: 'kpignon2c',
-    email: 'mswatheridge2c@wunderground.com',
+    email: 'mswage2c@wunderground.com',
   },
   {
     id: 86,
     avatar: 'https://robohash.org/quodquivoluptatum.png?size=120x120&set=set1',
     username: 'omateuszczyk2d',
-    email: 'lscannell2d@aboutads.info',
+    email: 'lscanll2d@aboutads.info',
   },
   {
     id: 87,
     avatar: 'https://robohash.org/inestaspernatur.png?size=120x120&set=set1',
     username: 'gaveline2e',
-    email: 'dguillerman2e@msn.com',
+    email: 'dguilrman2e@msn.com',
   },
   {
     id: 88,
     avatar: 'https://robohash.org/estnesciuntsit.png?size=120x120&set=set1',
     username: 'nnorville2f',
-    email: 'jwhitfeld2f@github.com',
+    email: 'jwhield2f@github.com',
   },
   {
     id: 89,
@@ -588,33 +588,33 @@ export const listOfUsers: User[] = [
     id: 91,
     avatar: 'https://robohash.org/nobisatmolestias.png?size=120x120&set=set1',
     username: 'ichaudrelle2i',
-    email: 'pswalteridge2i@biglobe.ne.jp',
+    email: 'pswaldge2i@biglobe.ne.jp',
   },
   {
     id: 92,
     avatar:
       'https://robohash.org/recusandaeullamadipisci.png?size=120x120&set=set1',
     username: 'rdeknevet2j',
-    email: 'jbransden2j@go.com',
+    email: 'jbraden2j@go.com',
   },
   {
     id: 93,
     avatar: 'https://robohash.org/ideaquesed.png?size=120x120&set=set1',
     username: 'bsabathier2k',
-    email: 'aoneil2k@symantec.com',
+    email: 'aonl2k@symantec.com',
   },
   {
     id: 94,
     avatar: 'https://robohash.org/vitaeestlaborum.png?size=120x120&set=set1',
     username: 'rantonioni2l',
-    email: 'npolgreen2l@deliciousdays.com',
+    email: 'npolen2l@deliciousdays.com',
   },
   {
     id: 95,
     avatar:
       'https://robohash.org/voluptatemdoloresquo.png?size=120x120&set=set1',
     username: 'aellett2m',
-    email: 'gknewstubb2m@networksolutions.com',
+    email: 'gknubb2m@networksolutions.com',
   },
   {
     id: 96,

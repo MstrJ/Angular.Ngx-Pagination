@@ -1,5 +1,12 @@
 <h1>Users</h1>
-<ul *ngFor="let user of users">
+<pagination-controls
+  (pageChange)="onChangePage($event)"
+  previousLabel="Poprzedni"
+  nextLabel="Następny"
+></pagination-controls>
+<ul
+  *ngFor="let user of users | paginate : { itemsPerPage: 3, currentPage: page }"
+>
   <li>
     <img src="{{ user.avatar }}" />
     <div><b>Username:</b> {{ user.username }}</div>

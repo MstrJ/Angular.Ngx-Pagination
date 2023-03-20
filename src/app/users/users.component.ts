@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class UsersComponent {
   users: User[] = listOfUsers;
+
+  page: number = 1;
+
+  onChangePage(event: any) {
+    this.page = event;
+  }
 }
