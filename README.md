@@ -1,28 +1,59 @@
-# Pagination
+# Instalacja ngx-Pagination
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+<br/>
+ 
+### 1. Zainstaluj 'ngx-pagination' z NPM:
 
-## Development server
+```sh
+npm install ngx-pagination
+```
+ <br/>
+ 
+### 2. Zaimportuj moduł 'ngxPaginationModule' do pliku App.module.ts
+```ts
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppComponent } from './app.component';
+import { NgxPaginationModule } from 'ngx-pagination'; // <-- zaimportuj moduł
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+@NgModule({
+  declarations: [AppComponent],
+  imports: [
+    BrowserModule,
+    NgxPaginationModule // <-- dołącz go do swojego modułu aplikacji
+  ],
+  providers: [],
+  bootstrap: [AppComponent],
+})
+export class AppModule {}
+```
+ <br/>
 
-## Code scaffolding
+### 3. Dodaj pagination-controls oraz pipe do *ngFor'a w pliku HTML
+```html
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<pagination-controls
+  (pageChange)="onChangePage($event)"
+  previousLabel="Poprzedni"
+  nextLabel="Następny"
+></pagination-controls>
 
-## Build
+<div *ngFor="let item of products | paginate : { itemsPerPage: 10, currentPage: page }">
+    your code...  
+</div>
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<br/>
 
-## Running unit tests
+### 4. Stwórz pole 'page' oraz metode do zmiany strony w pliku nazwa-component.ts
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```ts
 
-## Running end-to-end tests
+page: number = 1;
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# Angular.Ngx-Pagination
+onChangePage(event: any) {
+  this.page = event;
+  ... metoda do pokazania listy przedmiotów
+}
+  
+```
