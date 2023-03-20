@@ -1,3 +1,10 @@
+# Paginacja
+
+<p>Paginacja to proces dzielenia dużej ilości zawartośc na mniejsze porcje, w celu ułatwienia nawigacji i lepszej organizacji treści. Każda strona zawiera określoną liczbę elementów, np.: wyników wyszukiwania lub artykułów, a użytkownik może poruszać się między nimi, klikając na przyciski lub odnośniki, które prowadzą do kolejnych stron.</p>
+
+ 
+<br/> 
+
 # Instalacja ngx-Pagination
 
 <br/>
